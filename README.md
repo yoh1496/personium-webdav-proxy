@@ -10,7 +10,7 @@ By below command, you can launch this script.
 deno run --allow-net https://raw.githubusercontent.com/yoh1496/personium-webdav-proxy/main/index.ts <CELL_URL> <CELL_USERNAME> <CELL_PASSWORD>
 ```
 
-And then, configure your WebDAV application to open `localhost:8000/<BOX_NAME>` to access the Box in Personium Cell.
+And then, configure your WebDAV application to open `http://localhost:8000/<BOX_NAME>` to access the Box in Personium Cell.
 
 ## How it works
 
